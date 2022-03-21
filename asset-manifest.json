@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.339c5bcb.chunk.css",
+    "main.js": "/static/js/main.79b5bb22.chunk.js",
+    "main.js.map": "/static/js/main.79b5bb22.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7f986675.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7f986675.js.map",
+    "static/css/2.2280284b.chunk.css": "/static/css/2.2280284b.chunk.css",
+    "static/js/2.72dbf7ca.chunk.js": "/static/js/2.72dbf7ca.chunk.js",
+    "static/js/2.72dbf7ca.chunk.js.map": "/static/js/2.72dbf7ca.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2280284b.chunk.css.map": "/static/css/2.2280284b.chunk.css.map",
+    "static/css/main.339c5bcb.chunk.css.map": "/static/css/main.339c5bcb.chunk.css.map",
+    "static/js/2.72dbf7ca.chunk.js.LICENSE.txt": "/static/js/2.72dbf7ca.chunk.js.LICENSE.txt",
+    "static/media/Resume_Lucas_Li.e42cb982.pdf": "/static/media/Resume_Lucas_Li.e42cb982.pdf",
+    "static/media/coast.54b1b992.jpg": "/static/media/coast.54b1b992.jpg",
+    "static/media/cosmos.19ad0934.jpg": "/static/media/cosmos.19ad0934.jpg",
+    "static/media/developer.23e159be.jpg": "/static/media/developer.23e159be.jpg",
+    "static/media/dropship.b52fa0a1.jpg": "/static/media/dropship.b52fa0a1.jpg",
+    "static/media/goodFoodDiscounts.9b9dd889.png": "/static/media/goodFoodDiscounts.9b9dd889.png",
+    "static/media/hsp.40c6e624.png": "/static/media/hsp.40c6e624.png",
+    "static/media/lucas.c7ab2d72.jpg": "/static/media/lucas.c7ab2d72.jpg",
+    "static/media/techspec.3b34aad0.png": "/static/media/techspec.3b34aad0.png",
+    "static/media/travelwell.772033dc.png": "/static/media/travelwell.772033dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f986675.js",
+    "static/css/2.2280284b.chunk.css",
+    "static/js/2.72dbf7ca.chunk.js",
+    "static/css/main.339c5bcb.chunk.css",
+    "static/js/main.79b5bb22.chunk.js"
+  ]
+}
