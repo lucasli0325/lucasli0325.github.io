@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/lucas.jpg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -18,16 +18,13 @@ function Home() {
                 </span>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Sunil Yadav</strong>
-              </h1>
-
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                I'm
+                <strong className="main-name"> Lucas Li (李屹宇) </strong>. 
+                I'm currenlty a software engineer at PayPal based in Vancouver, Canada.
+                I obtained my Bachelor's degree from McGill University in (Honour) Economics and Finance, 
+                and my Master's degree from Washington University in St. Louis in Computer Science. 
+                Always passionate about exploring the tech industry!
               </p>
 
               <div className="heading-type">
