@@ -11,7 +11,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={12}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -22,9 +22,6 @@ function About() {
               <strong className="purple">About Me</strong>
             </h1>
             <Aboutcard />
-          </Col>
-          <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
-            <img src={developer} alt="about" className="image-style" />
           </Col>
         </Row>
         <Row className="skill-tools-wrapper">

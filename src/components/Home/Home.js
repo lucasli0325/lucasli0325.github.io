@@ -19,12 +19,8 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I'm
-                <strong className="main-name"> Lucas Li (李屹宇) </strong>. 
+                I'm<strong className="main-name"> Lucas Li (李屹宇) </strong>. 
                 I'm currenlty a software engineer at PayPal based in Vancouver, Canada.
-                I obtained my Bachelor's degree from McGill University in (Honour) Economics and Finance, 
-                and my Master's degree from Washington University in St. Louis in Computer Science. 
-                Always passionate about exploring the tech industry!
               </p>
 
               <div className="heading-type">
