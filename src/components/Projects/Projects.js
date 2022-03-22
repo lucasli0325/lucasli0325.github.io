@@ -8,20 +8,14 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple"> Blogs </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "left", paddingBottom: "10px" }}>
           {PROJECTS.map((project, index) => (
-            <Col md={4} className="project-card" key={index}>
+            <Col md={12} className="project-card" key={index}>
               <ProjectCard
-                imgPath={project.image}
-                technologyUsed={project.technologyUsed}
-                isBlog={false}
                 title={project.name}
-                description={project.description}
+                summary={project.summary}
                 link={project.url}
               />
             </Col>
