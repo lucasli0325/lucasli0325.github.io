@@ -37,9 +37,9 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
             <Route path="/project" component={Projects} />
-            <Route path="/lucasli0325.github.io/about" component={About}  />
-            <Route path="/lucasli0325.github.io/resume" component={Resume} />
-            <Route path="/lucasli0325.github.io/projects" component={Projects} />
+            <Route path="https://lucasli0325.github.io/about" component={About}  />
+            <Route path="https://lucasli0325.github.io/resume" component={Resume} />
+            <Route path="https://lucasli0325.github.io/projects" component={Projects} />
           </Switch>
           <Footer />
         </div>
