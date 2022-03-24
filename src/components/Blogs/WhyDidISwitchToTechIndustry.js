@@ -6,7 +6,7 @@ function WhyDidISwitchToTechIndustry() {
     <Container fluid className="blog-section">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col md={12} style={ {justifyContent: "center", paddingTop: "30px", paddingBottom: "50px",}}>
+          <Col md={12} style={ {justifyContent: "center", paddingTop: "30px",}}>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               <strong className="purple">Why Did I Swith to Tech Industry</strong>
             </h1>

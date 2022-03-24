@@ -419,14 +419,14 @@ html {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -518,7 +518,7 @@ html {
 
 .about-section {
   position: relative !important;
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: #414141 !important;
@@ -578,7 +578,6 @@ html {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: #414141 !important;

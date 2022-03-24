@@ -19,8 +19,8 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I'm<strong className="main-name"> Lucas Li (李屹宇) </strong>. 
-                I'm currenlty a software engineer at PayPal based in Vancouver, Canada.
+                I'm<strong className="main-name"> Lucas Li (李屹宇) </strong>, 
+                currenlty a software engineer at PayPal based in Vancouver, Canada.
               </p>
 
               <div className="heading-type">
