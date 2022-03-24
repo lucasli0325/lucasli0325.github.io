@@ -8,44 +8,6 @@ html {
 }
 
 /* --------- */
-/*  Preloader */
-/* --------- */
-#preloader {
-  position: fixed;
-  top: 30%;
-  left: 40%;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media (max-width: 767px) {
-    #preloader {
-      position: fixed;
-      top: 30%;
-      left: 20%;
-      width: 100%;
-      height: 100%;
-      z-index: 999999;
-      background-color: #ffffff;
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-}
-
-#preloader-none {
-  opacity: 0;
-}
-
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
-/* --------- */
 /*Scrollbar   */
 /* --------- */
 
@@ -815,4 +777,12 @@ html {
   .skill-tools-wrapper{
     flex-direction: column;
   }
+}
+
+.blog-section {
+  position: relative !important;
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: #414141 !important;
 }

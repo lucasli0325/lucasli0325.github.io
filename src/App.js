@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "./components/Preloader";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Blog1 from "./components/Blogs/WhyDidISwitchToTechIndustry";
+import Blog2 from "./components/Blogs/SystemDesignInterview";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -25,10 +27,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      {load ? (
-        <Preloader load={load} />
-      ) : (
+    <Router>(
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Navbar />
           <ScrollToTop />
@@ -36,10 +35,9 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
-            <Route path="/project" component={Projects} />
-            <Route path="https://lucasli0325.github.io/about" component={About}  />
-            <Route path="https://lucasli0325.github.io/resume" component={Resume} />
-            <Route path="https://lucasli0325.github.io/projects" component={Projects} />
+            <Route path="/project"  component={Projects} />
+            <Route path ="/blogs/WhyDidISwitchToTechIndustry" component={Blog1}/>
+            <Route path ="/blogs/SystemDesignInterview" component={Blog2}/>
           </Switch>
           <Footer />
         </div>

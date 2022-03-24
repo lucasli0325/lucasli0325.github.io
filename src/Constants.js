@@ -2,7 +2,12 @@ export const PROJECTS = [
   {
     name: "Why did I switch to tech industry",
     summary: "I used to be a business-majored student but end up being a software engineer after I graduate...",
-    url: "Blogs/Blog1.html",
+    url: "blogs/WhyDidISwitchToTechIndustry",
+  },
+  {
+    name: "System Design Interview",
+    summary: "System design has been an ...",
+    url: "blogs/SystemDesignInterview",
   }
 ];
 

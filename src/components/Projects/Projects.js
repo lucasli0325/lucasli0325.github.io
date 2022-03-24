@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import { PROJECTS } from "../../Constants";
+// import Blog1 from "../Blogs/WhyDidISwitchToTechIndustry";
+// import Blog2 from "../Blogs/SystemDesignInterview";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function Projects() {
   return (
@@ -21,6 +24,10 @@ function Projects() {
             </Col>
           ))}
         </Row>
+        {/* <Switch>
+            <Route path ="/blogs/WhyDidISwitchToTechIndustry" component={Blog1}/>
+            <Route path ="/blogs/SystemDesignInterview" component={Blog2}/>
+          </Switch> */}
       </Container>
     </Container>
   );
