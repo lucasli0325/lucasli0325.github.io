@@ -35,7 +35,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
-            <Route path="/project"  component={Projects} />
+            <Route path="/blog"  component={Projects} />
             <Route path ="/blogs/WhyDidISwitchToTechIndustry" component={Blog1}/>
             <Route path ="/blogs/SystemDesignInterview" component={Blog2}/>
           </Switch>

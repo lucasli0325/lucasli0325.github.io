@@ -76,7 +76,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/blog"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
