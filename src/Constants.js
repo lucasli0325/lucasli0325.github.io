@@ -15,6 +15,7 @@ export const SKILLS = [
   { name: "Linux/Unix", initialRating: 3 },
   { name: "CI/CD", initialRating: 4},
   { name: "Object-Oriented Programming", initialRating: 4},
+  { name: "RESTful API", initialRating: 4}
 ];
 
 export const TOOLS = ["IntelliJ", "Git", "AWS", "Splunk", "Postman", "Jenkins", "Agile"]
