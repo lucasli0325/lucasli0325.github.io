@@ -6,7 +6,7 @@ function TypeWriter() {
     <Typewriter
       options={{
         strings: [
-          "The world is home. Always Exploring!"
+          "World is home. Always Exploring!"
         ],
         autoStart: true,
         loop: true,
