@@ -7,7 +7,7 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = [
-  { name: "Java", initialRating: 4 },
+  { name: "Java", initialRating: 5 },
   { name: "Spring", initialRating: 4 },
   { name: "SQL", initialRating: 4 },
   { name: "C++", initialRating: 3 },
